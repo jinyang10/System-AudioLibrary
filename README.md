@@ -4,8 +4,7 @@ Client can dynamically specify any Playable object for the library as a "default
 Implemented undo and redo functionality of modifying Playlists - command pattern
 Only 1 instance of audio Library is allowed to be initialized in the system - singleton pattern
 
-undo() reverts the state to the earlier one before the last state-modifying method
-was executed
+undo() reverts the state to the earlier one before the last state-modifying method was executed
 undo() multiple times consecutively undoes the methods in the reverse order of how they were executed
 undo() does nothing if there are no methods to be undone
 
